@@ -20,14 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cad44e0-761e-4fda-a20b-42d02b6df803" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/accordeon/accordeon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accordeon/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accordeon/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slider/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slider/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slider/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabs/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabs/tabs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json-parser/dist/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/json-parser/dist/parser.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +82,7 @@
       <workItem from="1604429507539" duration="1549000" />
       <workItem from="1604488962530" duration="1367000" />
       <workItem from="1604500448849" duration="6602000" />
-      <workItem from="1604684003545" duration="3833000" />
+      <workItem from="1604684003545" duration="6944000" />
     </task>
     <servers />
   </component>
