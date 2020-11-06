@@ -1,6 +1,4 @@
 let items = [];
-
-
 let catalogItem = document.querySelectorAll('.js-catalog-item');
     catalogItem.forEach(function (item){
             let itemId = item.getAttribute('data-id');

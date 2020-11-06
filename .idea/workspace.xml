@@ -20,11 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cad44e0-761e-4fda-a20b-42d02b6df803" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/JsLessons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-parser/dist/parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accordeon/accordeon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accordeon/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accordeon/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slider/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slider/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slider/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-parser/dist/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/json-parser/dist/parser.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,17 +50,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jnAVd7B0Uymzlv6IGhYV3bqj2k" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -74,7 +85,8 @@
       <updated>1604429506516</updated>
       <workItem from="1604429507539" duration="1549000" />
       <workItem from="1604488962530" duration="1367000" />
-      <workItem from="1604500448849" duration="5688000" />
+      <workItem from="1604500448849" duration="6602000" />
+      <workItem from="1604684003545" duration="3833000" />
     </task>
     <servers />
   </component>
@@ -92,5 +104,26 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="703" y="1259" width="503" height="753" key="#Web_Browsers" timestamp="1604687150022">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="703" y="1259" width="503" height="753" key="#Web_Browsers/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1604687150022" />
+    <state x="693" y="1375" width="524" height="520" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604685095952">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="693" y="1375" width="524" height="520" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1604685095952" />
+    <state x="736" y="1393" key="FileChooserDialogImpl" timestamp="1604687122289">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="736" y="1393" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1604687122289" />
+    <state x="719" y="1241" width="471" height="788" key="RollbackChangesDialog" timestamp="1604686855523">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="719" y="1241" width="471" height="788" key="RollbackChangesDialog/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1604686855523" />
   </component>
 </project>

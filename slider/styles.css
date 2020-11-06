@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    font: normal 13px Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+.slider-wrapper {
+    position: relative;
+}
+.slider-wrapper .slider-track {
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.slider-wrapper .slider {
+    overflow: hidden;
+}
+
+.slider-wrapper .slider-controls {
+    position: absolute;
+    top: 0; left: 0;
+    right: 0; bottom: 0;
+}
+
+.slider-wrapper .slider-controls .next, .slider-wrapper .slider-controls .prev {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: url("http://test-sites5.21.oml.ru/d/fgs16_arrow_full.svg")no-repeat center center / 100% ,  rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    transition: all 0.5s ease;
+}
+.slider-wrapper .slider-controls .prev{
+    transform: rotate(180deg);
+}
+
+.slider-wrapper .slider-controls .next:hover, .slider-wrapper .slider-controls .prev:hover {
+    cursor: pointer;
+}
+.slider-wrapper .slider-controls .next.disabled, .slider-wrapper .slider-controls .prev.disabled {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.slider-wrapper .slider-controls .next {
+    right: 10px;
+}
+
+.slider-wrapper .slider-controls .prev {
+    left: 10px;
+}

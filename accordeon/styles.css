@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    font: normal 13px Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+.accord-wrapper {
+    padding: 5px 10px;
+    background: lightseagreen;
+}
+
+.accord-wrapper .accord-item {
+    padding: 5px;
+}
+
+.accord-wrapper .accord-item .item-title {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 3px 15px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.accord-wrapper .accord-item .item-content {
+    font-size: 14px;
+    padding: 0 15px;
+    background: rgba(0, 255, 0, 0.3);
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+
+    transition: all 0.5s ease;
+}
+
+.accord-wrapper .accord-item .item-content.active {
+    max-height: 100px;
+    visibility: visible;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
